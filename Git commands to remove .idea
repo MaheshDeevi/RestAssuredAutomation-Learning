@@ -1,0 +1,6 @@
+#Use the below commands in order, when you accidently push .idea folder to remote git repo
+$ echo '.idea' >> .gitignore
+$ git rm -r --cached .idea
+$ git add .gitignore
+$ git commit -m '(some message stating you added .idea to ignored entries)'
+$ git push
