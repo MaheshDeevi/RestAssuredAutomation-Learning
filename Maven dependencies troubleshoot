@@ -1,3 +1,4 @@
 #Use the below command in IntelliJ under File >> Settings >> Build tools >> Maven >>
 # >> Importing (VM Options) >> Runner (VM Options)
 -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true
+Check the checkbox "Always update snapshots"
